@@ -21,5 +21,6 @@ module UnitsConverter
     :yard => BigDecimal.new("0.9144"),
     :foot => BigDecimal.new("0.3048"),
     :inch => BigDecimal.new("0.0254"),
+    :furlong => BigDecimal.new("201.168"),
   }.with_indifferent_access
 end
