@@ -22,5 +22,6 @@ module UnitsConverter
     :foot => BigDecimal.new("0.3048"),
     :inch => BigDecimal.new("0.0254"),
     :furlong => BigDecimal.new("201.168"),
+    :fathom => BigDecimal.new("1.8288"),
   }.with_indifferent_access
 end
